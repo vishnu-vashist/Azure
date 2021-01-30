@@ -87,6 +87,9 @@
                 "networkSecurityGroup": {
                     "id": "[variables('nsgId')]"
                 }
+            },
+            "tags": {
+                "Dept": "MVP"
             }
         },
         {
@@ -96,6 +99,9 @@
             "location": "[parameters('location')]",
             "properties": {
                 "securityRules": "[parameters('networkSecurityGroupRules')]"
+            },
+            "tags": {
+                "Dept": "MVP"
             }
         },
         {
@@ -108,6 +114,9 @@
             },
             "sku": {
                 "name": "[parameters('publicIpAddressSku')]"
+            },
+            "tags": {
+                "Dept": "MVP"
             }
         },
         {
@@ -152,6 +161,9 @@
                         }
                     }
                 }
+            },
+            "tags": {
+                "Dept": "MVP"
             }
         }
     ],
