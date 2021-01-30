@@ -88,7 +88,7 @@
             "value": "az-user"
         },
         "adminPassword": {
-            "value": null
+            "value": "Password@123"
         },
         "patchMode": {
             "value": "AutomaticByOS"
