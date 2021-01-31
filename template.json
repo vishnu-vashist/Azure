@@ -170,7 +170,8 @@
     "outputs": {
         "adminUsername": {
             "type": "string",
-            "value": "[parameters('adminUsername')]"
+            "value": "[parameters('adminUsername')]",
+            "publicIp": "[parameters('publicIpAddressName')]"
         }
     }
 }
