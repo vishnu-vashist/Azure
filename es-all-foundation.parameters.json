@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "enterpriseScaleCompanyPrefix": {
-            "value": "mvp" // TODO: Fill in parameter value
+            "value": "mvp"
         },
         "managementSubscriptionId": {
             "value": "4f092221-d056-4fb4-bace-a96211934ae2"
