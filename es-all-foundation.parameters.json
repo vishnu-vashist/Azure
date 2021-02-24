@@ -3,10 +3,13 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "enterpriseScaleCompanyPrefix": {
-            "value": "mvp"
+            "value": "arm"
         },
         "managementSubscriptionId": {
             "value": "4f092221-d056-4fb4-bace-a96211934ae2"
+        },
+        "lzSubscriptionId": {
+            "value": []
         },
         "enableLogAnalytics": {
             "value": "Yes"
@@ -63,6 +66,24 @@
             "value": "Yes"
         },
         "enableChangeTracking": {
+            "value": "Yes"
+        },
+        "enableUpdateMgmt": {
+            "value": "Yes"
+        },
+        "enableActivityLog": {
+            "value": "Yes"
+        },
+        "enableAntiMalware": {
+            "value": "Yes"
+        },
+        "enableVmInsights": {
+            "value": "Yes"
+        },
+        "enableServiceMap": {
+            "value": "Yes"
+        },
+        "enableSqlAssessment": {
             "value": "Yes"
         },
         "enableSqlAudit": {
