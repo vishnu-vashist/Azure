@@ -1,99 +1,78 @@
 {
-    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
         "enterpriseScaleCompanyPrefix": {
             "value": "mvp"
         },
         "managementSubscriptionId": {
-            "value": "4f092221-d056-4fb4-bace-a96211934ae2"
-        },
-        "lzSubscriptionId": {
-            "value": "4f092221-d056-4fb4-bace-a96211934ae2"
+            "value": "46f51c64-f2fb-45fb-8584-0b8eeaa90bb8"
         },
         "enableLogAnalytics": {
-            "value": "No"
+            "value": "Yes"
         },
         "retentionInDays": {
-            "value": ""
+            "value": "30"
         },
         "enableAsc": {
-            "value": "No"
+            "value": "Yes"
         },
         "enableAscForServers": {
-            "value": "Free"
+            "value": "Standard"
         },
         "enableAscForAppServices": {
-            "value": "Free"
+            "value": "Standard"
         },
         "enableAscForStorage": {
-            "value": "Free"
+            "value": "Standard"
         },
         "enableAscForSql": {
-            "value": "Free"
+            "value": "Standard"
         },
         "enableAscForKeyVault": {
-            "value": "Free"
+            "value": "Standard"
         },
         "enableAscForArm": {
-            "value": "Free"
+            "value": "Standard"
         },
         "enableAscForDns": {
-            "value": "Free"
+            "value": "Standard"
         },
         "enableAscForKubernetes": {
-            "value": "Free"
+            "value": "Standard"
         },
         "enableAscForRegistries": {
-            "value": "Free"
+            "value": "Standard"
         },
         "enableAksPolicy": {
-            "value": "No"
+            "value": "Yes"
         },
         "denyAksPrivileged": {
-            "value": "No"
+            "value": "Yes"
         },
         "denyAksPrivilegedEscalation": {
-            "value": "No"
+            "value": "Yes"
         },
         "denyHttpIngressForAks": {
-            "value": "No"
+            "value": "Yes"
         },
         "enableSecuritySolution": {
-            "value": "No"
+            "value": "Yes"
         },
         "enableAgentHealth": {
-            "value": "No"
+            "value": "Yes"
         },
         "enableChangeTracking": {
-            "value": "No"
-        },
-        "enableUpdateMgmt": {
-            "value": "Yes"
-        },
-        "enableActivityLog": {
-            "value": "Yes"
-        },
-        "enableAntiMalware": {
-            "value": "Yes"
-        },
-        "enableVmInsights": {
-            "value": "Yes"
-        },
-        "enableServiceMap": {
-            "value": "Yes"
-        },
-        "enableSqlAssessment": {
             "value": "Yes"
         },
         "enableSqlAudit": {
-            "value": "No"
+            "value": "Yes"
         },
         "enableSqlEncryption": {
-            "value": "No"
+            "value": "Yes"
         },
         "enableArcMonitoring": {
-            "value": "No"
+            "value": "Yes"
         },
         "enableVmMonitoring": {
             "value": "Yes"
@@ -105,13 +84,13 @@
             "value": "Yes"
         },
         "denyRdp": {
-            "value": "No"
+            "value": "Yes"
         },
         "enableStorageHttps": {
-            "value": "No"
+            "value": "Yes"
         },
         "denyIpForwarding": {
-            "value": "No"
+            "value": "Yes"
         },
         "denySubnetWithoutNsg": {
             "value": "Yes"
