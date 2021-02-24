@@ -3,13 +3,13 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "enterpriseScaleCompanyPrefix": {
-            "value": "" // TODO: Fill in parameter value
+            "value": "mvp" // TODO: Fill in parameter value
         },
         "managementSubscriptionId": {
-            "value": ""
+            "value": "71410ce9-0cd7-47c9-8c4d-d5876741f633"
         },
         "lzSubscriptionId": {
-            "value": []
+            "value": "c4f3b116-307b-4a54-aa40-9d9e4b432849"
         },
         "enableLogAnalytics": {
             "value": "No"
