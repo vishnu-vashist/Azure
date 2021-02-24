@@ -1,0 +1,120 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "enterpriseScaleCompanyPrefix": {
+            "value": "" // TODO: Fill in parameter value
+        },
+        "managementSubscriptionId": {
+            "value": ""
+        },
+        "lzSubscriptionId": {
+            "value": []
+        },
+        "enableLogAnalytics": {
+            "value": "No"
+        },
+        "retentionInDays": {
+            "value": ""
+        },
+        "enableAsc": {
+            "value": "No"
+        },
+        "enableAscForServers": {
+            "value": "Free"
+        },
+        "enableAscForAppServices": {
+            "value": "Free"
+        },
+        "enableAscForStorage": {
+            "value": "Free"
+        },
+        "enableAscForSql": {
+            "value": "Free"
+        },
+        "enableAscForKeyVault": {
+            "value": "Free"
+        },
+        "enableAscForArm": {
+            "value": "Free"
+        },
+        "enableAscForDns": {
+            "value": "Free"
+        },
+        "enableAscForKubernetes": {
+            "value": "Free"
+        },
+        "enableAscForRegistries": {
+            "value": "Free"
+        },
+        "enableAksPolicy": {
+            "value": "No"
+        },
+        "denyAksPrivileged": {
+            "value": "No"
+        },
+        "denyAksPrivilegedEscalation": {
+            "value": "No"
+        },
+        "denyHttpIngressForAks": {
+            "value": "No"
+        },
+        "enableSecuritySolution": {
+            "value": "No"
+        },
+        "enableAgentHealth": {
+            "value": "No"
+        },
+        "enableChangeTracking": {
+            "value": "No"
+        },
+        "enableUpdateMgmt": {
+            "value": "Yes"
+        },
+        "enableActivityLog": {
+            "value": "Yes"
+        },
+        "enableAntiMalware": {
+            "value": "Yes"
+        },
+        "enableVmInsights": {
+            "value": "Yes"
+        },
+        "enableServiceMap": {
+            "value": "Yes"
+        },
+        "enableSqlAssessment": {
+            "value": "Yes"
+        },
+        "enableSqlAudit": {
+            "value": "No"
+        },
+        "enableSqlEncryption": {
+            "value": "No"
+        },
+        "enableArcMonitoring": {
+            "value": "No"
+        },
+        "enableVmMonitoring": {
+            "value": "Yes"
+        },
+        "enableVmssMonitoring": {
+            "value": "Yes"
+        },
+        "enableVmBackup": {
+            "value": "Yes"
+        },
+        "denyRdp": {
+            "value": "No"
+        },
+        "enableStorageHttps": {
+            "value": "No"
+        },
+        "denyIpForwarding": {
+            "value": "No"
+        },
+        "denySubnetWithoutNsg": {
+            "value": "Yes"
+        }
+    }
+}
