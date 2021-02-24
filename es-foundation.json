@@ -22,7 +22,7 @@
             "defaultValue": [],
             "maxLength": 36,
             "metadata": {
-                "description": "Provide the subscription id of an existing, empty subscription you want to move in as your first landing zone."
+                "description": "Provide the subscription id fo an existing, empty subscription you want to move in as your first landing zone."
             }
         },
         "enableLogAnalytics": {
@@ -154,7 +154,7 @@
                 "Yes",
                 "No"
             ]
-        },        
+        },
         "enableSecuritySolution": {
             "type": "string",
             "defaultValue": "No",
